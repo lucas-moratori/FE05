@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades Escolares</title>
+</head>
+<body>
+    <h1>Atividades Escolares</h1>
+    <nav>
+        <a href="#etapas">Etapas</a> |
+        <a href="#atividades">Atividades</a> |
+        <a href="#inscrição">Inscrição</a> 
+    </nav>
+    <h2 id="etapas">Como Participar:</h2>
+    <ol>
+        <li>Escolha uma atividade</li>
+        <li>Preencha o formulário</li>
+        <li>Envie sua inscrição</li>
+    </ol>
+    <p>Leia as orientações antes de continuar.</p>
+    <p>As atividades são destinadas aos estudantes da escola.</p>
+    <p>Consulte os horários e escolha a opção desejada.</p>
+    <p>Organize seus dados antes de preencher a inscrição.</p>
+    <p>Confira todas as informações antes de enviar.</p>
+    <h2 id="atividades">Atividades Disponíveis:</h2>
+    <table border="1">
+        <tr>
+            <th>Atividade</th>
+            <th>Turno</th>
+        </tr>
+        <tr>
+            <td>Desenvolvimento Web</td>
+            <td>Manhã</td>
+        </tr>
+        <tr>
+            <td>Robótica</td>
+            <td>Tarde</td>
+        </tr>
+    </table>
+    <p>Desenvolvimento Web permite conhecer a criação de páginas.</p>
+    <p>Robótica explora a construção e a programação de projetos.</p>
+    <p>Escolha a atividade de acordo com seu interesse.</p>
+    <p>Depois, vá até a seção de inscrição.</p>
+    <p>Preencha os campos com atenção.</p>
+    <h2 id="inscrição">Inscrição:</h2>
+    <form action="https://httpbin.org/post" method="post">
+        <label for="nome">Nome:</label> <input id="nome" name="nome" required>
+        <br><br>
+        <label for="atividade">Atividade:</label>
+        <select name="atividade" id="atividade">
+            <option value="dev">Desenvolvimento Web</option>
+            <option value="rob">Robótica</option>
+        </select> 
+        <br><br>
+        <button type="submit">Enviar inscrição</button>
+    </form>
+</body>
+</html>
